@@ -26,3 +26,6 @@ function outerFunction(outerValue)
 var innerFunction=outerFunction("Outer")
 console.log(innerFunction)
 innerFunction("Inner")
+
+
+
