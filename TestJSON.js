@@ -9,3 +9,5 @@ console.log(person)
 delete person.sname
 console.log(person)
 console.log(person.getID())
+
+
