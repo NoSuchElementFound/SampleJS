@@ -27,7 +27,7 @@ names.sort()    //sort method is ok for string but it creates string for numbers
 var num=[4,36,21,9,19]
 console.log(num.sort())
 
-
+//--------------------------------------------------------------------------//
 // how to sort numbers using sort method
 num.sort(function (a,b){
     return a-b
@@ -35,7 +35,7 @@ num.sort(function (a,b){
 console.log(num)
 
 
-
+//----------------------------------------------------------------------------//
 //Object Array
 var obj=[
     {
@@ -56,6 +56,7 @@ var obj=[
 console.log(obj.sort(function(a,b){return a.age-b.age==0?a.name-b.name:a.age-b.age}))
 
 
+//---------------------------------------------------------------------------//
 //for each loop
 numbers=[1,12,3,46,5,66]
 numbers.forEach(function (number)
@@ -63,6 +64,7 @@ numbers.forEach(function (number)
     console.log(number)
 })
 
+//-----------------------------------------------------------------------------//
 //filter function
 var grt10=numbers.filter(function (num){
     return num>10
@@ -82,3 +84,7 @@ var result1=numbers.some(function (num){
 console.log(result1)
 
 
+//----------------------------------------------------------------------------------//
+//spread operator in array
+var newarr=[...arr,...numbers]
+console.log(newarr)
